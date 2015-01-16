@@ -22,7 +22,7 @@ sap.ui.jsview("personalassistant.StartPage", {
 		var page = new sap.m.Page("pageMain");
 		var button = new sap.m.Button({
 			id : "btnStartListen", // sap.ui.core.ID
-			text : "Микрофон", // string
+			text : "Микрофон1", // string
 			press : function() {
 				var model = sap.ui.getCore().getModel();
 				var status = model.oData["status"];
